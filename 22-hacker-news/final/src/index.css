@@ -6,30 +6,30 @@ Variables
 
 :root {
   /* dark shades of primary color*/
-  --clr-primary-1: hsl(205, 86%, 17%);
-  --clr-primary-2: hsl(205, 77%, 27%);
-  --clr-primary-3: hsl(205, 72%, 37%);
-  --clr-primary-4: hsl(205, 63%, 48%);
+  --clr-primary-1: hsl(113, 91%, 21%);
+  --clr-primary-2: hsl(138, 85%, 36%);
+  --clr-primary-3: hsl(125, 43%, 60%);
+  --clr-primary-4: hsl(106, 18%, 51%);
   /* primary/main color */
-  --clr-primary-5: hsl(205, 78%, 60%);
+  --clr-primary-5: hsl(138, 85%, 36%);
   /* lighter shades of primary color */
-  --clr-primary-6: hsl(205, 89%, 70%);
-  --clr-primary-7: hsl(205, 90%, 76%);
-  --clr-primary-8: hsl(205, 86%, 81%);
+  --clr-primary-6: hsl(125, 81%, 37%);
+  --clr-primary-7: hsl(120, 41%, 61%);
+  --clr-primary-8: hsl(123, 86%, 81%);
   --clr-primary-9: hsl(205, 90%, 88%);
-  --clr-primary-10: hsl(205, 100%, 96%);
+  --clr-primary-10: hsl(113, 73%, 83%);
   /* darkest grey - used for headings */
-  --clr-grey-1: hsl(209, 61%, 16%);
+  --clr-grey-1: hsl(209, 73%, 80%);
   --clr-grey-2: hsl(211, 39%, 23%);
   --clr-grey-3: hsl(209, 34%, 30%);
   --clr-grey-4: hsl(209, 28%, 39%);
   /* grey used for paragraphs */
-  --clr-grey-5: hsl(210, 22%, 49%);
+  --clr-grey-5: hsl(180, 2%, 55%);
   --clr-grey-6: hsl(209, 23%, 60%);
   --clr-grey-7: hsl(211, 27%, 70%);
-  --clr-grey-8: hsl(210, 31%, 80%);
+  --clr-grey-8: hsl(240, 100%, 100%);
   --clr-grey-9: hsl(212, 33%, 89%);
-  --clr-grey-10: hsl(210, 36%, 96%);
+  --clr-grey-10: hsl(180, 1%, 14%);
   --clr-white: #fff;
   --clr-red-dark: hsl(360, 67%, 44%);
   --clr-red-light: hsl(360, 71%, 66%);
@@ -149,12 +149,12 @@ Search
 .form-input {
   width: 100%;
   border: none;
-  border-bottom: 3px solid var(--clr-grey-8);
+  border-bottom: 1px solid var(--clr-grey-8);
   max-width: 600px;
   background: transparent;
   padding: 1rem;
   font-size: 1rem;
-  color: var(--clr-grey-3);
+  color: var(--clr-grey-8);
   text-transform: uppercase;
   letter-spacing: var(--spacing);
   margin-top: 1rem;
@@ -243,8 +243,10 @@ Story
   }
 }
 .story {
+  color: rgb(7, 87, 124);
   background: var(--clr-white);
   border-radius: var(--radius);
+  
   padding: 1rem 2rem;
 }
 
